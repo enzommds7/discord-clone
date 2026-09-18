@@ -1,7 +1,7 @@
 import { useEffect, useState, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { io, Socket } from 'socket.io-client';
-import { Hash, Volume2, Plus, LogOut, Settings, Video, Mic, MicOff, VideoOff, MonitorUp } from 'lucide-react';
+import { Hash, Volume2, Plus, LogOut, Video, Mic, MicOff, VideoOff, MonitorUp } from 'lucide-react';
 
 const BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:3001';
 const API_URL = `${BASE_URL}/api`;
